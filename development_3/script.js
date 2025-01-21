@@ -1,0 +1,1 @@
+alert("allow all notification ")

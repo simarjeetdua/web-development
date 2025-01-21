@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        /* CLASS SELECTOR */
+       .func1{
+        background-color: aqua;
+       }
+       /* ID SELECTOR */
+       #func2{
+        color: red;
+        background-color: white;
+       }
+       /* CHILD SELECTOR */
+       div>h1 {
+        background-color: yellow;
+       }
+       div>p {
+        color: yellow;
+        background-color: red;
+       }
+       /* DESCENDANT SELECTOR */
+       div p{
+        color: bisque;
+        background-color: black;
+
+       }
+       div h1{
+        color: green;
+        background-color: yellow;
+
+       }
+       /* UNIVERSAL SELECTOR */
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       /* PSEUDO SELECTOR */
+       a:visited{
+        color: white;
+       }
+       a:link{
+        background-color: aqua;
+       }
+       a:active{
+        background-color: red;
+       }
+       a:hover{
+        background-color: black;
+       }
+       a:first-child{
+        background-color: white;
+
+       }
+
+
+    </style>
+</head>
+<body>
+    <div class="func1">
+        <h1> Lorem ipsum dolor sit amet.</h1>
+    </div>
+    <div id="func2">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, soluta!</p>
+        <p>this side nikku</p>
+    </div>
+    <div>
+        <article>
+           <p> hey, i am a article </p>
+        </article>
+    </div>
+    <div>
+        <h1>
+            all the heading should changed
+        </h1>
+    </div>
+    <div>
+        <a href="https://www.google.com">open google</a>
+   </div>
+</body>
+</html>
